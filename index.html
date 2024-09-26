@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="calc">
+            <div class="calc__inner">
+                <div class="calc__text">
+                    <h1>Калькулятор</h1>
+                    <p>Для нахождения суммы от процента</p>
+                </div>
+                <div class="main">            
+                    <div class="main__top">
+                        <label class="form_label" for="numb_1">Введите число:
+                            <input id="number-1" class="number" name="numb_1" type="text" value="1000">
+                        </label>
+                        <label class="form_label" for="numb_2">Введите процент:
+                            <input id="number-2" class="number" name="numb_2" type="text" value="10">
+                        </label>
+                    </div>
+                    <div class="main__btns">
+                        <button id="calc_btn" type="button" >Посчитать</button>
+                        <button id="calc_reset" type="button" >Сбросить</button>
+                    </div>
+                    <div class="main__buttom">
+                        <label for="result">Результат:</label>
+                        <input id="result" class="number" name="result" type="text" readonly>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
